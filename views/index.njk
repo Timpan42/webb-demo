@@ -7,7 +7,15 @@
     <ul>
         {% for row in rows %}
 
-        <li>{{ row.name }} {{ row.secret_identity }}</li>
+        <li>
+            <div class="d-flex">
+            {{ row.name }}
+            <br>
+            {{ row.secret_identity }} 
+            {{ row.bio }}
+            <img src = "/img/Friterad_Stefan.png">
+            </div>
+        </li>
         
         {% endfor %}
     </ul>

@@ -157,3 +157,9 @@ body {
 h1 {
   font-size: var(--step-5);
 }
+
+.d-flex{
+font-size: 30px;
+padding: 20px;
+margin-top: 10px;
+}
