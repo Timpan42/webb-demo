@@ -127,19 +127,19 @@ select {
   --step-3: clamp(2.27rem, calc(2.01rem + 1.29vw), 2.93rem);
   --step-4: clamp(2.72rem, calc(2.36rem + 1.83vw), 3.66rem);
   --step-5: clamp(3.27rem, calc(2.75rem + 2.56vw), 4.58rem);
-  --color-foreground: #333;
+  --color-foreground: #4A412A;
   --color-background: #efefef;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-user-color-scheme=light]) {
     --color-foreground: #efefef;
-    --color-background: #333;
+    --color-background: #4A412A;
   }
 }
 :root[data-user-color-scheme=dark] {
   --color-foreground: #efefef;
-  --color-background: #333;
+  --color-background: #4A412A;
 }
 
 body {
@@ -162,4 +162,17 @@ h1 {
 font-size: 30px;
 padding: 20px;
 margin-top: 10px;
+}
+
+nav{
+background-color: aqua;
+padding: 20px;
+
+}
+
+footer{
+background-color: brown;
+margin-top: 30px;
+padding: 20px;
+
 }
