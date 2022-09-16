@@ -162,6 +162,8 @@ h1 {
 font-size: 30px;
 padding: 20px;
 margin-top: 10px;
+display: flex;
+flex-direction: column;
 }
 
 nav{

@@ -7,14 +7,18 @@
     <ul>
         {% for row in rows %}
 
-        <li>
-            <div class="d-flex">
+        <li class="d-flex">
+            <div>
             {{ row.name }}
             <br>
             {{ row.secret_identity }}
             <br>
             {{ row.bio }}
-            <img src = "/img/Friterad_Stefan.png">
+            {{ row.age }}
+            {{ row.email }}
+            {{ row.bank_password }}
+            {{ row.bank_username }}
+            <br>
             </div>
         </li>
         
